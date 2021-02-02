@@ -1,0 +1,30 @@
+.intro__container{
+    box-sizing: border-box;
+}
+
+@media (min-width: 320px) {
+    .intro__container{
+    margin: 0 16px;
+}
+}
+@media (min-width: 320px) {
+    .intro__container{
+    margin: 0 16px;
+}
+}
+@media (min-width: 728px) {
+    .intro__container{
+    margin: 0 24px;
+}
+}
+@media (min-width: 1024px) {
+    .intro__container{
+    margin-left:48px;
+    max-width: 690px;
+}
+}
+@media (min-width: 1280px) {
+    .intro__container{
+    margin-left:148px;
+}
+}

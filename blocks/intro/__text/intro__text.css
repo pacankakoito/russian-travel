@@ -1,0 +1,13 @@
+.intro__text{
+    font-family: 'Inter', 'Arial', sans-serif; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.63;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    align-self: left;
+    border: solid 3px red;
+    margin:0 auto;
+    padding-top: 40px;
+}

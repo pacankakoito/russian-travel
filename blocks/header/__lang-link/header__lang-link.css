@@ -1,0 +1,26 @@
+.header__lang-link{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.11;
+    text-decoration: none;
+    color: white;
+    box-sizing: border-box;
+    padding:0 0 0 1.125em;
+}
+.header__lang-link:first-child{
+    text-decoration: underline;
+}
+@media (min-width: 320px) {
+    .header__lang-link{
+    font-size: 18px;
+    line-height: 1.11;
+}
+}
+@media (min-width: 425px) {
+    .header__lang-link{
+        font-size: 24px;
+        line-height: 1.17;
+} 
+}

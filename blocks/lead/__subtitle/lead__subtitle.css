@@ -1,0 +1,33 @@
+.lead__subtitle{
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: center;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    margin:0;
+    border: solid 3px red;
+}
+@media (min-width: 320px) {
+    .lead__subtitle{
+     font-size: 16px;
+     line-height: 1.25;
+     padding: 1em 1em 0 1em;
+}
+}
+@media (min-width: 425px) {
+    .lead__subtitle{
+     font-size: 22px;
+     line-height: 1.25;
+     padding: 1em 1em 0 1em;
+}
+}
+@media (min-width: 768px) {
+    .lead__subtitle{
+     font-size: 30px;
+     line-height: 1.2;
+     padding: 1em 1em 0 1em;
+}
+}

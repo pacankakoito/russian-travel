@@ -1,0 +1,6 @@
+.lead{
+    display: flex;
+    flex-direction: column;
+    border: solid 3px red;
+    max-width: 100%;
+}

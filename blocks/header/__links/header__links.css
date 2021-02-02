@@ -1,0 +1,24 @@
+.header__links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    box-sizing: border-box;
+    margin:0;
+    
+}
+@media (min-width: 320px) {
+    .header__links{
+    padding: 1.67em 1em 0 0; 
+}
+}
+@media (min-width: 425px) {
+    .header__links{
+    padding:1.91em 1.5em 0 0; 
+}
+} 
+@media screen and (min-width: 768px) {
+    .header__links{
+    padding:1.91em 3em 0 0; 
+}
+}
