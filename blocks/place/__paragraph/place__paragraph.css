@@ -1,0 +1,10 @@
+.place__paragraph{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.63;
+    color: #FFFFFF;
+    border: solid 3px red;
+    max-width: 288px;
+}

@@ -1,0 +1,7 @@
+.place{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: solid 3px red;
+
+}

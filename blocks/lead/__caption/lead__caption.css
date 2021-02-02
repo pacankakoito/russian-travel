@@ -11,12 +11,12 @@
     margin: 0;
     padding:0.8em 0 0 1em;
 }
-@media (min-width: 1024px) {
+@media screen and  (min-width: 1024px) {
     .lead__caption{
     padding: 0.8em 0 0 4.8em;
 }
 }
-@media (min-width: 1280px) {
+@media  screen and (min-width: 1280px) {
     .lead__caption{
     padding: 0.8em 0 0 14.8em;
 }
