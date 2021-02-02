@@ -1,6 +1,8 @@
 .place__image{
-    box-sizing: border-box;
-    max-width: 320px;
+    grid-area: place__image;
+    max-width: 100%;
+    height: auto;
     object-fit: cover;
-    
+    margin: 0;
+    padding:0;
 }

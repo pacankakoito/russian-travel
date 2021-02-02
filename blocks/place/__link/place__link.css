@@ -8,4 +8,9 @@
     color: #FFFFFF;
     border: solid 3px red;
     align-self: flex-start;
+    padding-top: 12px;
+    transition: opacity 0.5s ease;
+}
+.place__link:hover{
+    opacity: 0.8; /*ссылка меняет прозрачность при наведении*/
 }

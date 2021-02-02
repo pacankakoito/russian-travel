@@ -1,0 +1,7 @@
+.place__text-container{
+    grid-area: place__text-container;
+    justify-self: flex-start;
+    border: solid 3px red;
+    max-width: 484px;
+    height: auto;
+}
