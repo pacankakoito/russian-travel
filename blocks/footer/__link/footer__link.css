@@ -10,6 +10,7 @@
     opacity: 1;
     transition: opacity 0.5s ease;
     align-self: flex-start;
+    border:solid 3px red;
 }
 .footer__link:hover{
         opacity:0.8;

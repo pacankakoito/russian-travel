@@ -5,25 +5,11 @@
     align-items: flex-start;
     box-sizing: border-box;
     margin:0;
-    align-self: flex-start;    
-}
-@media screen and (min-width: 320px) {
-    .header__links{
-        padding: 1.875rem 1rem 0 0; 
-}
-}
-@media screen and (min-width: 465px) {
-    .header__links{
-        padding: 2.5rem 1rem 0 0; 
-}
+    align-self: flex-start;  
+    padding:0.875rem 0 0 0;  
 }
 @media screen and (min-width: 768px) {
     .header__links{
-        padding: 2.875rem 1.5rem 0 0;
-}
-} 
-@media screen and (min-width: 1024px) {
-    .header__links{
-        padding: 2.875rem 3rem 0 0; 
+        padding: 1.125rem 0 0 0;
 }
 }
