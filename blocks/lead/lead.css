@@ -1,13 +1,14 @@
 .lead{
     display: flex;
     flex-direction: column;
-    border: solid 3px red;
     max-width: 100%;
-    padding-top:48px;
+    padding-top:3rem;
+    max-width: 984px;
+    margin:0 auto;
 }
 @media screen and (min-width: 1280px) {
     .lead {
-        padding-top:56px;
+        padding-top:3.5rem;
     }
 }
 

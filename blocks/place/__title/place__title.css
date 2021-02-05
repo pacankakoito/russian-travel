@@ -3,28 +3,27 @@
     font-family: 'Inter', 'Arial', sans-serif; 
     font-style: normal;
     font-weight: 900;
-    font-size: 32px;
+    font-size: 2rem;
     line-height: 1.09;
     color: #FFFFFF;
-    border:solid 3px #ff0000;
     margin: 0;
 }
 @media screen and (min-width: 320px) {
     .place__title{
-    padding-left: 16px;
+    padding-left: 1rem;
      }
 }
 
 @media screen and (min-width: 768px) {
     .place__title{
      padding:0;
-     font-size: 42px;
+     font-size: 2.625rem;
      line-height: 1.1;
      }
 }
 @media screen and (min-width: 1024px) {
     .place__title{
-     font-size: 72px;
+     font-size: 4.5rem;
      line-height: 1.06;
      max-width: 400px;
      }

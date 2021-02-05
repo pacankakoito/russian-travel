@@ -2,11 +2,10 @@
     font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 0.75rem;
     line-height: 1;
     letter-spacing: 0.2em;
     color: #AAAAAA;
-    border:solid 3px red;
     align-self: flex-start;
     margin: 0;
 }

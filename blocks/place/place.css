@@ -10,14 +10,13 @@
 @media screen and (min-width: 320px) {
     .place {
         grid-template-columns: repeat(1, minmax(min-content, max-content));
-       /* grid-template-rows: repeat(4, minmax(20px, 1fr));*/
         grid-template-areas:
         "place__title"
         "place__website"
         "place__image"
         "place__text-container";
-        margin: 64px auto 0;
-        grid-gap: 32px;
+        margin: 4rem auto 0;
+        grid-gap: 2rem;
         max-width: 100%;
     }
   }
@@ -25,29 +24,28 @@
 @media screen and (min-width: 768px) {
    .place {
        grid-template-columns: repeat(2, minmax(min-content, max-content));
-      /* grid-template-rows: repeat (2, minmax(20px, 1fr));*/
        grid-template-areas:
        "place__title place__website"
        "place__image place__text-container";
-        margin: 73px auto 0;
-        row-gap: 48px;
-        column-gap: 28px;
+        margin: 4.5625rem auto 0;
+        row-gap: 3rem;
+        column-gap: 1.75rem;
         max-width: 93.75%;
     }
   }
 
  @media screen and (min-width: 1024px) {
    .place {
-       margin: 80px auto 0;
-       row-gap: 48px;
-       column-gap: 32px;
+       margin: 5rem auto 0;
+       row-gap: 3rem;
+       column-gap: 2rem;
        max-width: 90.625%;
     }
   }
   @media screen and (min-width: 1280px) {
     .place {
-       row-gap: 48px;
-       column-gap: 40px;
-       max-width: 90.625%;
+       row-gap: 3rem;
+       column-gap: 2.5rem;
+       max-width: 984px;
     }
   }

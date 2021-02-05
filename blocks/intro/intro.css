@@ -4,6 +4,6 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    border:solid 3px red; 
-    max-width:100%;
+    max-width: 984px;
+    margin: 0 auto;
 }

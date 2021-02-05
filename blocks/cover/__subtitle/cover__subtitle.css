@@ -2,7 +2,7 @@
     font-family: 'Inter', 'Arial', sans-serif; 
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 1.14;
     text-align: center;
     color: #FFFFFF;
@@ -10,10 +10,10 @@
 }
 @media screen and (min-width: 320px) {
     .cover__subtitle{
-     font-size: 14px;
+     font-size: 0.875rem;
      line-height: 1.14;
      margin: 0 auto;
-     padding:16px 0 0 0;
+     padding:1rem 0 0 0;
      max-width: 288px;
 }
 }
@@ -24,9 +24,9 @@
 }
 @media screen and (min-width: 768px) {
     .cover__subtitle{
-     font-size: 18px;
+     font-size: 1.125rem;
      line-height: 1.22;
      margin: 0 auto;
-     padding:32px 0 0 0;
+     padding:2rem 0 0 0;
 }
 }

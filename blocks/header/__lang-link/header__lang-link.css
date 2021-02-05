@@ -2,7 +2,7 @@
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 1.11;
     text-decoration: none;
     color: white;
@@ -10,17 +10,17 @@
     padding:0 0 0 1.125em;
 }
 .header__lang-link:first-child{
-    text-decoration: underline;
+        text-decoration: underline;
 }
 @media screen and (min-width: 320px) {
     .header__lang-link{
-    font-size: 18px;
-    line-height: 1.11;
+        font-size: 1.125rem;
+        line-height: 1.11;
 }
 }
 @media screen and (min-width: 425px) {
     .header__lang-link{
-        font-size: 24px;
+        font-size: 1.5rem;
         line-height: 1.17;
 } 
 }

@@ -2,14 +2,13 @@
     font-family: 'Inter', 'Arial', sans-serif; 
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 0.75rem;
     line-height: 1.5;
     color: #FFFFFF;
     list-style: none;
     box-sizing: border-box;
     text-align: left;
-    border: solid 3px red;
     padding: 0;
     margin: 0 auto;
-    padding-top: 34px;
+    padding-top: 2.125rem;
 }
