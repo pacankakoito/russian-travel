@@ -36,7 +36,7 @@
   .photo-grid {
     grid-template-columns: repeat(4, minmax(280px, 1fr));
     grid-gap: 16px;
-    max-width: 92.5%;
+    max-width: 1184px;
     margin: 92 auto 0;
   }
 }

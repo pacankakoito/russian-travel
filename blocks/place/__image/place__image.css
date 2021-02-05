@@ -1,8 +1,19 @@
 .place__image{
     grid-area: place__image;
-    max-width: 100%;
-    height: auto;
     object-fit: cover;
+    max-width: 100%;
     margin: 0;
     padding:0;
+}
+@media screen and (min-width: 1024px) {
+    .place__image{
+     max-width: 440px;
+     height: auto;
+     }
+}
+@media screen and (min-width: 1280px) {
+    .place__image{
+     max-width: 460px;
+     height: auto;
+     }
 }

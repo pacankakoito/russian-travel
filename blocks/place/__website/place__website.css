@@ -18,3 +18,8 @@
      padding:0;
      }
 }
+@media screen and (min-width: 1024px) {
+    .place__website{
+     align-self: end;
+     }
+}
