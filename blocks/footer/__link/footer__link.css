@@ -4,12 +4,12 @@
     font-weight: normal;
     font-size: 1.5rem;
     line-height: 1;
-    color: #FFFFFF;
-    text-decoration: none;
-    margin: 2rem 0 0 0;
     opacity: 1;
     transition: opacity 0.5s ease;
     align-self: flex-start;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: flex;
 }
 .footer__link:hover{
         opacity:0.8;
@@ -20,17 +20,10 @@
         font-size: 1.5rem;
         line-height: 1;
     }
-    .footer__link:first-child{
-        margin-top: 0;
-    }
 }
 @media screen and (min-width: 768px) {
     .footer__link {
         font-size: 1rem;
         line-height: 1.12;
-        margin: 0 0 0 1.125rem;
-    }
-    .footer__link:first-child{
-        margin-left: 0;
     }
 }

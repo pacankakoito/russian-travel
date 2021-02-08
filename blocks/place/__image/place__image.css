@@ -2,18 +2,22 @@
     grid-area: place__image;
     object-fit: cover;
     max-width: 100%;
+    height: auto;
     margin: 0;
     padding:0;
+}
+@media screen and (min-width: 768px) {
+    .place__image{
+     max-width: 340px;
+    }
 }
 @media screen and (min-width: 1024px) {
     .place__image{
      max-width: 440px;
-     height: auto;
-     }
+    }
 }
 @media screen and (min-width: 1280px) {
     .place__image{
      max-width: 460px;
-     height: auto;
-     }
+    }
 }

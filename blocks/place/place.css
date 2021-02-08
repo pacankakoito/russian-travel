@@ -5,6 +5,10 @@
     align-content: start;
     align-items: start;
     justify-items: start;
+    max-width: 100%;
+}
+.place:first-child{
+     margin-top:0;
 }
 
 @media screen and (min-width: 320px) {
@@ -15,9 +19,8 @@
         "place__website"
         "place__image"
         "place__text-container";
-        margin: 4rem auto 0;
+        margin: 3.125rem auto 0;
         grid-gap: 2rem;
-        max-width: 100%;
     }
   }
   
@@ -27,7 +30,7 @@
        grid-template-areas:
        "place__title place__website"
        "place__image place__text-container";
-        margin: 4.5625rem auto 0;
+        margin-top: 4.5625rem;
         row-gap: 3rem;
         column-gap: 1.75rem;
         max-width: 93.75%;
@@ -36,7 +39,7 @@
 
  @media screen and (min-width: 1024px) {
    .place {
-       margin: 5rem auto 0;
+       margin-top: 5rem;
        row-gap: 3rem;
        column-gap: 2rem;
        max-width: 90.625%;
@@ -44,7 +47,6 @@
   }
   @media screen and (min-width: 1280px) {
     .place {
-       row-gap: 3rem;
        column-gap: 2.5rem;
        max-width: 984px;
     }

@@ -1,7 +1,15 @@
 .header__logo{
-    max-width: 100%;
-    height: auto;
     box-sizing: border-box;
     object-fit: contain;
     margin:0;
  }
+ @media screen and (min-width: 320px) {
+    .header__logo{
+        max-width: 142px;
+}
+}
+@media screen and (min-width: 768px) {
+    .header__logo{
+        max-width: 176px;
+}
+}

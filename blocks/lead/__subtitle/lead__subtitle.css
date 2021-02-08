@@ -8,25 +8,17 @@
     color: #FFFFFF;
     box-sizing: border-box;
     margin:0;
+    padding: 1rem 1rem 0 1rem;
 }
-@media screen and (min-width: 320px) {
-    .lead__subtitle{
-     font-size: 1rem;
-     line-height: 1.25;
-     padding: 1em 1em 0 1em;
-}
-}
+
 @media screen and (min-width: 425px) {
     .lead__subtitle{
      font-size: 1.375rem;
-     line-height: 1.25;
-     padding: 1em 1em 0 1em;
-}
+    }
 }
 @media screen and (min-width: 768px) {
     .lead__subtitle{
      font-size: 1.875rem;
      line-height: 1.2;
-     padding: 1em 1em 0 1em;
-}
+    }
 }

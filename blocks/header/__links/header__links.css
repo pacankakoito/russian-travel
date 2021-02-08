@@ -6,11 +6,11 @@
     box-sizing: border-box;
     margin:0;
     align-self: flex-start;
-    padding:0.875rem 0 0 0;
+    padding: 0.875rem 0 0 0;
     list-style: none;  
 }
 @media screen and (min-width: 768px) {
     .header__links{
-        padding: 1.125rem 0 0 0;
+        padding-top: 1.125rem;
     }
 }

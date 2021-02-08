@@ -4,6 +4,17 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    max-width: 984px;
     margin: 0 auto;
+}
+@media screen and (min-width: 1024px) {
+    .intro{
+     max-width: 90.625%;
+     margin:0 auto;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .intro{
+     max-width: 984px;
+    }
 }
